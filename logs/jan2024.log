@@ -1,0 +1,29 @@
+2024-01-25T09:28:02.022+05:30  INFO 18876 --- [main] com.example.jan2024.Jan2024Application   : Starting Jan2024Application using Java 17.0.9 with PID 18876 (C:\Personal\SpringbootApplications\jan2024\jan2024\target\classes started by svams in C:\Personal\SpringbootApplications\jan2024\jan2024)
+2024-01-25T09:28:02.050+05:30  INFO 18876 --- [main] com.example.jan2024.Jan2024Application   : No active profile set, falling back to 1 default profile: "default"
+2024-01-25T09:28:03.842+05:30  INFO 18876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 2024 (http)
+2024-01-25T09:28:03.859+05:30  INFO 18876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-25T09:28:03.860+05:30  INFO 18876 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-25T09:28:03.936+05:30  INFO 18876 --- [main] o.a.c.c.C.[.[localhost].[/jan2024]       : Initializing Spring embedded WebApplicationContext
+2024-01-25T09:28:03.937+05:30  INFO 18876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1671 ms
+2024-01-25T09:28:04.475+05:30  INFO 18876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 2024 (http) with context path '/jan2024'
+2024-01-25T09:28:04.484+05:30  INFO 18876 --- [main] com.example.jan2024.Jan2024Application   : Started Jan2024Application in 3.295 seconds (process running for 3.954)
+2024-01-25T09:32:15.221+05:30  INFO 18876 --- [http-nio-2024-exec-1] o.a.c.c.C.[.[localhost].[/jan2024]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-25T09:32:15.238+05:30  INFO 18876 --- [http-nio-2024-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-25T09:32:15.251+05:30  INFO 18876 --- [http-nio-2024-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2024-01-25T09:32:16.188+05:30  INFO 18876 --- [http-nio-2024-exec-1] c.e.j.controller.CalculatorController    : THIS IS INSIDE THE CONTROLLER: First Input - 12.0, Second Input - 14.0
+2024-01-25T09:32:16.230+05:30  INFO 18876 --- [http-nio-2024-exec-1] c.e.jan2024.services.CalculatorService   : THIS IS INSIDE THE SERVICE: First Number - 12.0, Second Number - 14.0
+2024-01-25T09:34:11.196+05:30  INFO 18876 --- [http-nio-2024-exec-5] c.e.j.controller.CalculatorController    : THIS IS INSIDE THE CONTROLLER: First Input - 12.0, Second Input - 0.0
+2024-01-25T09:34:11.203+05:30  INFO 18876 --- [http-nio-2024-exec-5] c.e.jan2024.services.CalculatorService   : THIS IS INSIDE THE SERVICE: First Number - 12.0, Second Number - 0.0
+2024-01-25T09:39:39.221+05:30  INFO 9496 --- [main] com.example.jan2024.Jan2024Application   : Starting Jan2024Application using Java 17.0.9 with PID 9496 (C:\Personal\SpringbootApplications\jan2024\jan2024\target\classes started by svams in C:\Personal\SpringbootApplications\jan2024\jan2024)
+2024-01-25T09:39:39.224+05:30  INFO 9496 --- [main] com.example.jan2024.Jan2024Application   : No active profile set, falling back to 1 default profile: "default"
+2024-01-25T09:39:40.490+05:30  INFO 9496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 2024 (http)
+2024-01-25T09:39:40.502+05:30  INFO 9496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-25T09:39:40.502+05:30  INFO 9496 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-25T09:39:40.570+05:30  INFO 9496 --- [main] o.a.c.c.C.[.[localhost].[/jan2024]       : Initializing Spring embedded WebApplicationContext
+2024-01-25T09:39:40.571+05:30  INFO 9496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
+2024-01-25T09:39:41.067+05:30  INFO 9496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 2024 (http) with context path '/jan2024'
+2024-01-25T09:39:41.081+05:30  INFO 9496 --- [main] com.example.jan2024.Jan2024Application   : Started Jan2024Application in 2.33 seconds (process running for 2.698)
+2024-01-25T09:40:36.105+05:30  INFO 9496 --- [http-nio-2024-exec-1] o.a.c.c.C.[.[localhost].[/jan2024]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-25T09:40:36.106+05:30  INFO 9496 --- [http-nio-2024-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-25T09:40:36.107+05:30  INFO 9496 --- [http-nio-2024-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-25T09:40:36.148+05:30  INFO 9496 --- [http-nio-2024-exec-1] c.e.j.controller.CalculatorController    : THIS IS INSIDE THE CONTROLLER: First Input - 12.0, Second Input - 0.0
